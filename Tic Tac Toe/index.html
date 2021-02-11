@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <aside class="player-info">
+                    <div>
+                        <h1>Tic Tac Toe Game</h1>
+                        <h2>Enter Players Name :))</h2>
+                        <div class="form-group">
+                            <label for="player1Name">Player Name</label>
+                            <input type="text" class="form-control"
+                                id="player1Name" placeholder="Enter First PlayerName">
+                        </div>
+                        <div class="form-group">
+                            <label for="player2Name">Player Name</label>
+                            <input type="text" class="form-control"
+                                id="player2Name" placeholder="Enter Second Player Name">
+                        </div>
+                        <button disabled class="btn btn-dark">Submit</button>
+                        <img
+                            src="https://image.shutterstock.com/z/stock-vector-tic-tac-toe-variations-table-381821860.jpg"
+                            alt="">
+
+                    </aside>
+                    <aside class="game">
+                        <div class="winornot">...</div>
+                        <div class="playerName">
+                            <button class="btn btn-primary">Player First</button>
+                            <button class="btn btn-danger">Player Second</button>
+                        </div>
+                        <div class="playagain">
+                            <button class="btn btn-success">Play Again</button>
+                        </div>
+                        <div class="box">
+                            <div class="boxes">
+                                <button class="btn btn-x"></button>
+                                <button class="btn btn-x"></button>
+                                <button class="btn btn-x"></button>
+                                <button class="btn btn-x"></button>
+                                <button class="btn btn-x"></button>
+                                <button class="btn btn-x"></button>
+                                <button class="btn btn-x"></button>
+                                <button class="btn btn-x"></button>
+                                <button class="btn btn-x"></button>
+                            </div>
+                           
+                        </div>
+                    </aside>
+                </section>
+            </main>
+            <script src="./main.js"></script>
+        </body>
+    </html>
